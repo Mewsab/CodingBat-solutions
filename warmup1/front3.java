@@ -1,0 +1,13 @@
+public class front3 {
+    public String front3(String str) {
+        String fr;
+        if (str.length()>=3){
+            fr = str.substring(0, 3);
+        }
+        else {
+            fr = str;
+        }
+        return fr + fr + fr;
+    }
+
+}
