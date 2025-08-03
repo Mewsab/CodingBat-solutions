@@ -1,3 +1,4 @@
+import java.util.Map;
 public class mapBully {
     public Map<String, String> mapBully(Map<String, String> map) {
         if (map.containsKey("a")) {
